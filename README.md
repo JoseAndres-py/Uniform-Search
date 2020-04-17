@@ -4,7 +4,7 @@ Create a window that shows the following maze of 30x30. You can ﬁnd the data t
 
 
 <p align="center">
-  <img src="Images/Maze.png" width="650" title="hover text">
+  <img src="Images/Maze.png" width="300" title="hover text">
 </p>
 
 The red cell represents the star state, with coordinates (0,1). The green cell is the goal at (28,29).
