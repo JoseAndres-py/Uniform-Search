@@ -32,9 +32,9 @@ BFS (Breadth First Search)
   <img src="Images/BFS.png" width="450" title="hover text">
 </p>
 
-- The amount of explored states is: 277.
-- Cost of the path is:  1446.
-- Elapsed time: 0.337 seconds.
+- The amount of explored states is: 520.
+- Cost of the path is:  840.
+- Elapsed time: 0.461 seconds.
 
 
 UCS (Uniform cost search)
@@ -44,9 +44,9 @@ UCS (Uniform cost search)
   <img src="Images/UCS.png" width="450" title="hover text">
 </p>
 
-- The amount of explored states is: 277.
-- Cost of the path is:  1446.
-- Elapsed time: 0.337 seconds.
+- The amount of explored states is: 535.
+- Cost of the path is:  782.
+- Elapsed time: 0.0378 seconds.
 
 ## Which algorithm was the best for solving the maze problem?
 
