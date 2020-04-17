@@ -4,7 +4,7 @@ Create a window that shows the following maze of 30x30. You can ﬁnd the data t
 
 
 <p align="center">
-  <img src="Images/Table.png" width="650" title="hover text">
+  <img src="Images/Maze.png" width="650" title="hover text">
 </p>
 
 The red cell represents the star state, with coordinates (0,1). The green cell is the goal at (28,29).
@@ -16,7 +16,7 @@ DFS (Depth First Search)
 ==============================================
 
 <p align="center">
-  <img src="Images/DFS.png" width="450" title="hover text">
+  <img src="Images/DFS.png" width="400" title="hover text">
 </p>
 
 - The amount of explored states is: 277.
@@ -29,7 +29,7 @@ BFS (Breadth First Search)
 ==============================================
 
 <p align="center">
-  <img src="Images/BFS.png" width="450" title="hover text">
+  <img src="Images/BFS.png" width="400" title="hover text">
 </p>
 
 - The amount of explored states is: 520.
@@ -41,7 +41,7 @@ UCS (Uniform cost search)
 ==============================================
 
 <p align="center">
-  <img src="Images/UCS.png" width="450" title="hover text">
+  <img src="Images/UCS.png" width="400" title="hover text">
 </p>
 
 - The amount of explored states is: 535.
