@@ -1,38 +1,53 @@
-# Simple Fuzzy System
+# Uniform Search
 
-El programa se encarga de evaluar un sistema de decisión difusa para la compra de autos basado en dos entradas (precio, kilometraje), un conjunto de reglas y una salida que determina la compra o no-compra del vehículo. 
-Entradas: El sistema tiene dos entradas definidas así: 
-
-Precio: Esta entrada tiene un universo de discurso entre 0 y 100 Millones de pesos. 
-1. Conjuntos difusos de la entrada:  
-    -Barato: Trapezoidal (0, 0, 30, 70)  
-    -Estándar: Triangular (25, 60, 85)  
-    -Costoso: Trapezoidal (55, 80, 100, 100) 
-
-Kilometraje: Esta entrada tiene un universo de discurso entre 0 y 300 Mil Kilómetros 
-1. Conjuntos difusos de la entrada:  
-    -Bajo: Trapezoidal (0, 0, 50, 200)  
-    -Medio: Trapezoidal (50, 100, 200, 300)  
-    -Alto: Triangular (200, 300, 300) 
-
-Salida: La salida tiene un Universo de discurso entre 0 y 1 y dos conjuntos de salida así: 
-    -Comprar: Trapezoidal (0, 0, 0.3, 0.8) 
-    -No-Comprar: Triangular (0.5, 1, 1) 
-    
-Base de reglas: Las dos entradas y la salida se encuentran relacionadas mediante 9 reglas definidas en la siguiente matriz de reglas. 
+Create a window that shows the following maze of 30x30. You can ﬁnd the data that represents the maze and the cost of each cell in the ﬁle maze.txt
 
 
 <p align="center">
   <img src="Images/Table.png" width="650" title="hover text">
 </p>
 
-Entradas y Salidas del sistema difuso.
+The red cell represents the star state, with coordinates (0,1). The green cell is the goal at (28,29).
+
+Implement the DFS, BFS and uniform cost search algorithms. As in the class notebook, the util.py has some data structures than can be useful to implement in the same function the three search algorithms, like queues, stacks and priority queues. The search.py allows you the inherit the class SearchProblem so you can deﬁne your own with the same functions.
+
+
+DFS (Depth First Search)
+==============================================
 
 <p align="center">
-  <img src="Images/Input.png" width="650" title="hover text">
+  <img src="Images/DFS.png" width="450" title="hover text">
 </p>
+
+- The amount of explored states is: 277.
+- Cost of the path is:  1446.
+- Elapsed time: 0.337 seconds.
+
+
+
+BFS (Breadth First Search)
+==============================================
 
 <p align="center">
-  <img src="Images/Ouput.png" width="375" title="hover text">
+  <img src="Images/BFS.png" width="450" title="hover text">
 </p>
 
+- The amount of explored states is: 277.
+- Cost of the path is:  1446.
+- Elapsed time: 0.337 seconds.
+
+
+UCS (Uniform cost search)
+==============================================
+
+<p align="center">
+  <img src="Images/UCS.png" width="450" title="hover text">
+</p>
+
+- The amount of explored states is: 277.
+- Cost of the path is:  1446.
+- Elapsed time: 0.337 seconds.
+
+## Which algorithm was the best for solving the maze problem?
+
+The best algorithm for the problem solution is Uniform Cost Search what this algorithm find the solution in a short time because your time is 10 times more little that DFS and 12 times more little that BFS and have the most little cost but this solution explore almost all nodes of maze. In terms of algorithm that not see the cost, the best algorithm for the problrem solution of maze is Breath First Search wich tis find the path with short numbers of actions from leave to the goal state although the algorithm  explorer most nodes of maze.
